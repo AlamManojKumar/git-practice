@@ -1,0 +1,11 @@
+name: push code to dev branch
+on:
+  push:
+    branches:
+      - main
+jobs:
+  learning:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: welcome 
+        run: echo "welcome to google ping"
