@@ -1,0 +1,11 @@
+name: push code to dev branch
+on:
+  pull_request:
+    branches:
+      - dev
+jobs:
+  learning:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: welcome 
+        run: echo "welcome to pull-reques"
